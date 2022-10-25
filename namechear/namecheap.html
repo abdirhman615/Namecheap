@@ -1,0 +1,925 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>namecheap</title>
+<script src="https://kit.fontawesome.com/7de40c340e.js" crossorigin="anonymous"></script>
+</head>
+<style>
+   
+    body{
+        background-color:rgb(238, 227, 227)
+    }
+    .box-nav{
+        background-color:rgb(22, 19, 58);
+        padding-left: 1px;
+        display: flex;
+        color: white;
+        padding: 0;
+        margin-top: -20px;
+        margin-inline-start: -10px;
+        margin-inline-end: -10px;
+       
+    
+
+    }
+    .box-nav img{
+height: 15px;
+color: white;
+    }
+    .box-nav ul{
+        list-style: none;
+        display: flex;
+        padding: 0;
+       
+        
+
+    }
+    .box-nav ul li{
+        padding-left: 10px;
+        list-style-type:none;
+    }
+    .button{
+            color: white;
+            background-color: rgb(22, 19, 58);
+            border: none;
+            font-size: small;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border-radius: 5px;        
+        }
+        .img{
+            padding-left: 1000px;
+           margin-right: 1px;
+            display: flex;
+        }
+
+        .box-nav2{
+            background-color:#fff;
+        padding-left: 30px;
+        display: flex;
+        margin-inline-start: -10px;
+        margin-inline-end: -10px;
+        
+
+        }
+        .box-nav2 img{
+height: 70px;
+width: 200px;
+    }
+    .box-nav2 ul{
+        list-style: none;
+        display: flex;
+        padding: 10;
+        margin-left: 300px;
+        
+        
+
+    }
+    .box-nav2 ul li{
+        padding-left: 20px;
+        list-style-type: none;
+       
+    }
+    .caln{
+        background-color: rgb(138, 138, 255);
+        font-size:20px;
+       
+        text-align: center;
+        margin-inline-start: -10px;
+        margin-inline-end: -10px;
+
+    }
+    .caln img{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .promos{
+        background-color: rgb(223, 223, 231);
+        font-size:20px;
+        display: flex;
+        margin-left: 40px;
+        margin-inline-start: -10px;
+        margin-inline-end: -10px;
+    }
+    .color{
+        color:rgb(97, 196, 163);
+        margin-top: 20px;
+    }
+    .textbox{
+            border-radius: 1px;
+            border: solid grey 0.5px;
+            width: 560px;
+            height: 40px;
+            background-color: rgb(255, 255, 255);
+            font-size: large;
+            
+
+        }
+        .button1{
+            color: white;
+            background-color: rgb(223, 56, 14);
+            border: none;
+            font-size: large;
+            padding-top: 10px;
+            padding-bottom: 8px;
+            border-radius: 1px; 
+            margin-right: 5px;       
+        }
+        .SPECIAL{
+            font-size: large;
+            border-color:aquamarine;
+            color: aquamarine;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            
+        }
+        .SPECIAL:hover {
+            
+        
+            color: white; 
+            background-color:aquamarine;
+;
+        }
+        .SPECIAL img{
+            height: 15px;
+            width: 15px;
+            
+            color: aquamarine;
+        
+
+        }
+        .boxs{
+            margin: 10px;
+            display: flex;
+            margin-top: 40px;
+            justify-content: center;
+        }
+        .box{
+            
+            width: 250px;
+            height: 200px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+ 
+            margin-right: 30px;
+        }
+        
+        .link{
+            color:black;
+            text-decoration: none;
+            font-size:x-large;
+            
+        }
+        .link a{
+            text-decoration: none   ;
+            color :black
+        }
+        .link :hover{
+            color: rgb(252, 56, 56);
+            text-decoration: underline;
+            
+
+        }
+        .link1{
+            color:rgb(255, 255, 255);
+            text-decoration: none;
+            display: flex;
+            margin-left: 800px;
+
+        }
+        .link1 a{
+            text-decoration: none   ;
+            color :rgb(255, 255, 255)
+        }
+        .link1:hover{
+            color: rgb(252, 56, 56);
+            text-decoration: underline;
+            
+
+        }
+        .link2{
+            color:rgb(255, 255, 255);
+            text-decoration: none;
+            display: flex;
+            margin-left:200px;
+            margin-bottom: 30px;
+           
+        }
+        .link2 a{
+            text-decoration: none ;
+            color :orangered
+            
+        }
+        .link2:hover{
+            color: rgb(252, 56, 56);
+            text-decoration: underline;
+             font-size: larger;
+             margin-left: 180px;
+
+        }
+
+        .qural{
+            margin: 10px;
+            color: rgb(30, 31, 30);
+        }
+        .big-button{
+            color:white;
+            background-color: orangered;
+            border: none;
+            font-size: larger;
+            width: 370px;
+            height: 40px;
+            border-radius: 5px; 
+            margin-left: 500px;
+            
+                    
+        }
+        .back{
+            width: 500px;
+            height: 500px;
+            margin-left: 400;
+        }
+        .center{
+            margin-bottom: 20px;
+        }
+        .box3{
+            
+            width: 380px;
+            
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-right: 30px;
+        }
+        .boxss{
+            margin-left: 70px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    
+        }
+      
+      .box-img1{
+            display: flex;
+       margin-right: 10px;
+       width: 35px;
+       height: 35px;
+       margin-top: 10px;
+       display: flex;
+       
+        
+}
+.boxtitle{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 50px;
+    color: #000000;
+    display: flex;
+    margin-top: 15px;
+    
+
+}
+.box-content{
+
+line-height: 25px;
+font-size: 18px;
+color: rgb(37, 36, 36);
+font-family: 'Roboto', sans-serif;
+margin-top: 20px;
+
+}
+.box-get{
+    
+    margin: 10px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    
+}
+.box-more{
+    
+width: 400px;
+height: 500px;
+background-color:rgb(238, 227, 227);
+
+padding: 10px;
+border-radius: 10px;
+ 
+margin-right: 30px;
+
+}
+.box-img-more{
+    
+        display: flex;
+       margin-left: 100px;
+       width: 400px;
+       height: 200px;
+       
+        
+
+}
+.double{
+    display: flex;
+}
+.SPECIAL1{
+            font-size: large;
+            border-color:rgb(182, 189, 186);
+            color: rgb(182, 189, 186);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            
+        }
+.SPECIAL1:hover {
+            
+        
+            color: white; 
+            background-color:rgb(65, 65, 65);
+           
+
+        }
+        .prg{
+            font-size: large;
+            border-color:rgb(65, 65, 65);
+            color: rgb(255, 255, 255);
+            background-color: blue;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-inline-start: 100px;
+            margin-inline-end: 100px;
+            border-radius: 10px;
+            text-align: left;
+            
+            
+            
+        }
+        .boxss1{
+            margin-left: 70px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+
+        }
+        .boxss3{
+            
+            
+            width: 380px;
+            
+            background-color: rgb(168, 164, 164);
+            padding: 10px;
+            border-radius: 10px;
+            margin-right: 30px;
+        }
+
+        
+
+
+        
+
+       
+</style>
+<body>
+    <div class="box-nav">
+        <ul>
+            <li>Contact Us</li>
+            <li>Sing In</li>
+            <li>Sing Up</li>
+            <div class="img">
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li>USD</li>
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+        </div>
+        </ul>
+        <!------------------------------------------------------------------>
+         </div>
+         <div class="box-nav2">
+            <img src="img/logo1.svg" alt="">
+            <ul>
+                <li> Domains</li>
+                <li>Hosting</li>
+                <li>WordPress</li>
+                <li>Email</li>
+                <li>Apps</li>
+                <li>Security</li>
+                <li>Transfer to Us</li>
+                <li>Help center</li>
+                <li>Account</li>
+
+            </ul>
+
+
+         </div>
+         <!------------------------------------------------------------------>
+        <div class="caln">
+            
+           <img src="img/calan.svg" alt=""> We stand with our friends and colleagues in Ukraine. To support Ukraine in their time of need visit this page.
+        
+        </div><div class="promos">
+       <p style="margin-left: 40px;"> Promos → <div class="color">99 Cent Domain Names</div> </p>
+
+        </div>
+        <div>
+            <img src="img/backgarund.svg" alt="">
+        </div>
+        <!------------------------------------------------------------------>
+        <center><h1>99 Cent Domain Names</h1></center>
+        <center><h2>Grab a domain deal and the extra bargains you need</h2></center>
+        <div>
+            <center> <input type="text"placeholder="find your new 99 cent domain name                                 Beast Mode" class="textbox"><input type="button"name="Next" value="Get Started" class="button1">
+            </p></center>
+        </div>
+        <div >
+            <center>
+                <h3>
+                    Use the promo code <button class="SPECIAL"><img src="img/scissors.png" alt=""> 99SPECIAL</button>  at the checkout to get your 99 cent domain
+                </h3>
+            </center>
+        </div>
+<!------------------------------------------------------------------>
+            <div class="boxs">
+<div class="box">
+    <div class="link">
+    <a href="#"> .Store</a>
+</div>
+<div class="qural">
+    The TLD built for selling <br><br>
+    <br><br>
+    $48.98/yr
+</div>
+<h1>$0.99/yr</h1>
+
+
+</div>
+
+<div class="box">
+    <div class="link">
+    <a href="#"> .Link</a>
+</div>
+<div class="qural">
+    Be the .link they need <br><br>
+    <br><br>
+    $8.98/yr
+</div>
+<h1>$0.99/yr</h1>
+</div>
+
+<div class="box">
+    <div class="link">
+    <a href="#"> .XYZ</a>
+</div>
+<div class="qural">
+    Have the last word with a .xyz <br><br>
+    <br><br>
+    $11.98/yr
+</div>
+<h1>$0.99/yr</h1>
+
+</div>
+
+<div class="box">
+    <div class="link">
+    <a href="#"> .Cyou</a>
+</div>
+<div class="qural">
+    Stand out online<br><br>
+    <br><br>
+    $4.98/yr
+</div>
+<h1>$0.99/yr</h1>
+</div>
+</div>
+<!------------------------------------------------------------------>
+
+<input type="button"name="Login" value="Discover all 99 cent domains" class="big-button">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><h1>Everything you need to get your idea online</h1>
+
+<h3>Calling all bargain hunters! Use our coupon to pick up a 99 cent domain and collect everything <br>
+     you need to get your idea online today. Discover a variety of hosting plans to suit every budget,<br>
+      and affordable tools to help your website thrive.</h3>
+
+</center>
+<!------------------------------------------------------------------>
+
+<div class="back">
+    <img src="img/backgarund2.svg" alt="">
+</div>
+<div class="center">
+<center><h1>Mini prices, major benefits</h1>
+<h4>Get a domain, hosting, and a logo for just $5.47</h4>
+</center>
+</div>
+<!------------------------------------------------------------------>
+<div class="boxss">
+    <!-- box 1-->
+        <div class="box3">
+            <div class="double">
+            <div class="box-img1">
+                <img src="img/list.png" alt="">
+            </div>
+               <div class="boxtitle"> 
+                Hosting Plan
+            
+        </div>
+    </div>
+               <div class="box-content">
+               Whether you run a startup or established company, it’s easy to find a hosting plan to suit your needs and budget.
+               <br><br><br>Starting at
+               </div>
+               <div><h1>$4.48/mo </h1><div class="link2"><a href="#"> View plans →</a></div>  </div>
+                
+            
+        </div>
+        <!-- end box -->
+    
+    
+        <!-- box 2-->
+        <div class="box3">
+            <div class="double">
+            <div class="box-img1">
+                <img src="img/envelope.png" alt=""> 
+           </div>
+           <div class="boxtitle"> 
+            Email service
+        </div>
+</div>
+            <div class="box-content">
+                You will get a 2-month free trial of Private Email with your website domain. It’s fast, secure, and reliable.
+                <br><br><br>
+                Free trial
+                </div>
+        
+    </div>
+           
+    
+        
+            
+        
+        <!-- end box -->
+    
+        
+        <!-- box 2-->
+        <div class="box3">
+            <div class="double">
+            <div class="box-img1">
+                <img src="img/menu-dots.png" alt=""> 
+            </div>
+            
+            <div class="boxtitle">
+                Free Logo Maker
+            </div>
+        </div>
+            <div class="box-content">
+                Choose your favorite font, icon, and download your free logo to use on your website and beyond.
+            <br><br><br><br><br><h3>Free    </h3> <div class="link2"><a href="#">Create  your logo →</a></div> 
+            
+            </div>
+    
+            
+            
+        </div>
+        <!-- end box -->
+    </div>
+
+
+
+    </div>
+
+    <center><h1>Get more, for less</h1></center>
+
+    <!------------------------------------------------------------------>
+
+    <div class="box-get">
+        <!-- box 1-->
+            <div class="box-more">
+                <div class="box-img-more">
+                    <img src="img/download.svg" alt=""> 
+                </div>
+    
+                
+                <div class="boxtitle">
+                    Stay safe and secure
+                </div>
+                <div class="box-content">
+                    We’re not just offering a coupon and a great offer. With every registered domain, you’ll get free domain privacy protection for life, and free DNSSEC security. That means your personal information is hidden from the public and your website data will be protected from fraudulent activity.                </div>
+        
+    
+                
+            </div>
+            <!-- end box -->
+        
+        
+            <!-- box 2-->
+            <div class="box-more">
+                <div class="box-img-more">
+                    <img src="img/download (1).svg" alt=""> 
+                </div>
+         
+                <div class="boxtitle">
+                    Get guidance and support
+                </div>
+                <div class="box-content">
+                    Enjoy peace of mind with our friendly 24/7 customer support, extensive Knowledgebase, and informative blog packed full of useful advice for new and established businesses.                </div>
+        
+            
+                
+            </div>
+            <!-- end box -->
+        
+            
+            <!-- box 2-->
+            <div class="box-more">
+                <div class="box-img-more">
+                    <img src="img/download (2).svg" alt=""> 
+                </div>
+             
+                <div class="boxtitle">
+                    Save time and money with redirects
+                </div>
+                <div class="box-content">
+                    Don’t have time to set up a multi-page website? With URL forwarding, it’s easy to direct your customers to a Shopify account, Instagram page, or any other online destination of your choosing.                </div>
+        
+                
+                
+            </div>
+            <!-- end box -->
+        </div>
+        <br>
+        <br>
+        <br>
+         <!------------------------------------------------------------------>
+
+        <center><h1>Choose your 99 cent domain</h1></center>
+        <div>
+            <center> <input type="text"placeholder="find your new 99 cent domain name                               Beast Mode" class="textbox"><input type="button"name="Next" value="Get Started" class="button1">
+            </p></center>
+        </div>
+        <div >
+            <center>
+                <h3>
+                    Use the promo code <button class="SPECIAL"><img src="img/scissors.png" alt=""> 99SPECIAL</button>  at the checkout to get your 99 cent domain
+                </h3>
+            </center>
+        </div>
+        <!------------------------------------------------------------------>
+        
+        <div class="boxs">
+            <div class="box">
+                <div class="link">
+                <a href="#"> .BIZ</a>
+            </div>
+            <div class="qural">
+                The TLD built for selling <br><br>
+                <br><br>
+                $48.98/yr
+            </div>
+            <h1>$0.99/yr</h1>
+            
+            
+            </div>
+            
+            <div class="box">
+                <div class="link">
+                <a href="#"> .US</a>
+            </div>
+            <div class="qural">
+                Be the .link they need <br><br>
+                <br><br>
+                $8.98/yr
+            </div>
+            <h1>$0.99/yr</h1>
+            </div>
+            
+            <div class="box">
+                <div class="link">
+                <a href="#"> .PW</a>
+            </div>
+            <div class="qural">
+                Have the last word with a .xyz <br><br>
+                <br><br>
+                $11.98/yr
+            </div>
+            <h1>$0.99/yr</h1>
+            
+            </div>
+            
+            <div class="box">
+                <div class="link">
+                <a href="#"> .UNO</a>
+            </div>
+            <div class="qural">
+                Stand out online<br><br>
+                <br><br>
+                $4.98/yr
+            </div>
+            <h1>$0.99/yr</h1>
+            </div>
+            </div>
+            <!------------------------------------------------------------------>
+            <div class="boxs">
+                <div class="box">
+                    <div class="link">
+                    <a href="#"> .LINK</a>
+                </div>
+                <div class="qural">
+                    The TLD built for selling <br><br>
+                    <br><br>
+                    $48.98/yr
+                </div>
+                <h1>$0.99/yr</h1>
+                
+                
+                </div>
+                
+                <div class="box">
+                    <div class="link">
+                    <a href="#"> .XYZ</a>
+                </div>
+                <div class="qural">
+                    Be the .link they need <br><br>
+                    <br><br>
+                    $8.98/yr
+                </div>
+                <h1>$0.99/yr</h1>
+                </div>
+                
+                <div class="box">
+                    <div class="link">
+                    <a href="#"> .HOST</a>
+                </div>
+                <div class="qural">
+                    Have the last word with a .xyz <br><br>
+                    <br><br>
+                    $11.98/yr
+                </div>
+                <h1>$0.99/yr</h1>
+                
+                </div>
+                
+                <div class="box">
+                    <div class="link">
+                    <a href="#"> .PRESS</a>
+                </div>
+                <div class="qural">
+                    Stand out online<br><br>
+                    <br><br>
+                    $4.98/yr
+                </div>
+                <h1>$0.99/yr</h1>
+                </div>
+                </div>
+                <!------------------------------------------------------------------>
+                <div class="boxs">
+                    <div class="box">
+                        <div class="link">
+                        <a href="#"> .WEBSITE</a>
+                    </div>
+                    <div class="qural">
+                        The TLD built for selling <br><br>
+                        <br><br>
+                        $48.98/yr
+                    </div>
+                    <h1>$0.99/yr</h1>
+                    
+                    
+                    </div>
+                    
+                    <div class="box">
+                        <div class="link">
+                        <a href="#"> .CLICK</a>
+                    </div>
+                    <div class="qural">
+                        Be the .link they need <br><br>
+                        <br><br>
+                        $8.98/yr
+                    </div>
+                    <h1>$0.99/yr</h1>
+                    </div>
+                    
+                    <div class="box">
+                        <div class="link">
+                        <a href="#"> .SPACE</a>
+                    </div>
+                    <div class="qural">
+                        Have the last word with a .xyz <br><br>
+                        <br><br>
+                        $11.98/yr
+                    </div>
+                    <h1>$0.99/yr</h1>
+                    
+                    </div>
+                    
+                    <div class="box">
+                        <div class="link">
+                        <a href="#"> .SITE</a>
+                    </div>
+                    <div class="qural">
+                        Stand out online<br><br>
+                        <br><br>
+                        $4.98/yr
+                    </div>
+                    <h1>$0.99/yr</h1>
+                    </div>
+                    </div>
+                    <br><br>
+                    <!------------------------------------------------------------------>
+                    <center>
+                        <button class="SPECIAL1"> +Show all TLDs</button>
+
+
+                    </center>
+                    <br><br><br>
+
+                    <center><div class="prg"><h1>Customer Review</h1>
+
+                        “Fair prices. Easy registration. Easy purchase. No hidden extra charges on reaching the final checkout (e.g. some merchants add VAT at checkout).”<br>
+                        <br><br><br>
+                        David M. <div class="link1"><a href="#">Hear more from our customers → </a></div>  </div></center>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <center><h1>Why Namecheap</h1></center>
+                        <div class="boxss1">
+                            <!-- box 1-->
+                                <div class="boxss3">
+                                    <div class="double">
+                                
+                                       <div class="boxtitle"> 
+                                        Privacy and Security
+                                    
+                                </div>
+                            </div>
+                                       <div class="box-content">
+                                        Your website security and privacy comes first at Namecheap, and we will always support the rights of individuals and consumers online. It’s our mission to keep the Internet open, free, and safe for everyone. 
+                                        </div>
+                                        
+                                    
+                                </div>
+                                <!-- end box -->
+                            
+                            
+                                <!-- box 2-->
+                                <div class="boxss3">
+                                    <div class="double">
+                                    
+                                   <div class="boxtitle"> 
+                                    Your Business Online
+                                </div>
+                        </div>
+                                    <div class="box-content">
+                                        Boost your business with industry-premium products and services, at prices that won’t break your budget. If it doesn’t provide you with a better Internet experience, we simply don’t offer it.                                        <br><br><br>
+                                    
+                                        </div>
+                                
+                            </div>
+                                   
+                                
+                                <!-- end box -->
+                            
+                                
+                                <!-- box 2-->
+                                <div class="boxss3">
+                                    <div class="double">
+                                    
+                                    
+                                    <div class="boxtitle">
+                                        Customer Service
+                                    </div>
+                                </div>
+                                    <div class="box-content">
+                                        You’re covered by a Support Team that’s renowned for being one of the most knowledgeable, friendly, and professional in the business. Real people are ready to assist you with any issue, any time, 24/7.                                    
+                                    </div>
+                            
+                                    
+                                    
+                                </div>
+                                <!-- end box -->
+                            </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        
+                        
+                        
+                           
+
+
+
+</body>
+
+</html>
